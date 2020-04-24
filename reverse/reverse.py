@@ -61,3 +61,5 @@ class LinkedList:
             curr_node = next_node
         # assign head to previous node since current is None
         self.head = prev_node
+
+    # runtime = O(n)
